@@ -1,0 +1,98 @@
+/* MainDashboard.css */
+
+.MainDiv {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f7f4f4;
+    
+  }
+  
+  .alarmHostDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+  
+  .alarmHostRow2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+
+  .DOSDiv,
+  .DNSDiv,
+  .DNSExDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .secondBoxDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .row1,
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+  }
+  .row2{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto ;
+  }
+  
+  .AlarmByType,
+  .TodaysAlarm,
+  .FlowCollTrend,
+  .ddosGuage,
+  .dnsGuage,
+  .dnsExGuage,
+  .EncryptGuage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1100px;
+    margin: 20px;
+    background-color: white;
+    
+  }
+  .ddosGuage,
+  .dnsGuage,
+  .dnsExGuage,
+  .EncryptGuage {
+    display: Grid;
+   
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin-left: 20px;
+    background-color: white;
+    
+  }
+
+  .TotalAlerts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width:900px;
+   height:700px;
+    background-color: white;
+  }
+  
+  /* Add any additional styling as needed for h1, h2, h3, etc. */
+  

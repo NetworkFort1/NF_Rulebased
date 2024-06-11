@@ -1,0 +1,17 @@
+/* NavBar.css */
+
+/* Increase the size of the Analyze text in the dropdown */
+.navbar .nav-link,.NavDropdown.Item,
+.navbar .nav-item.dropdown:hover .nav-link {
+  font-size: 25px; /* Adjust the font size as needed */
+}
+
+/* Increase the size of the buttons */
+.navbar .btn-outline-success,
+.navbar .btn-outline-danger {
+  font-size: 25px; /* Adjust the font size as needed */
+}
+ .navbar .search-input::placeholder
+ {
+    font-size: 25px;
+ }

@@ -1,0 +1,63 @@
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    backdrop-filter: blur(5px); /* Apply a slight blur to the background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* Ensure the popup is on top of other content */
+  }
+  
+  /* Styles for the popup content */
+  .popup-content {
+    background: #fff; /* White background for the popup */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle lift effect */
+    max-width: 400px; /* Adjust the max-width as needed */
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Close button style */
+  .close-button {
+    background: #333; /* Dark background for the close button */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Heading style */
+  h2 {
+    color: #333; /* Dark color for the heading */
+  }
+  
+  /* Style for content inside the popup */
+  .popup-content div {
+    margin-top: 10px;
+  }
+  
+  /* Style for key-value pairs */
+  .popup-content div p {
+    margin: 0; /* Remove default margin for p elements */
+  }
+  
+  .popup-content div p strong {
+    font-weight: bold; /* Make keys bold */
+  }
+
+  .Row1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
